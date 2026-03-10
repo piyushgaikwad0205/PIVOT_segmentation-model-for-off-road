@@ -1,8 +1,4 @@
 
-
-
----
-
 # Off-Road Terrain Perception System
 
 ### AI Powered Semantic Segmentation for Autonomous Terrain Understanding
@@ -25,6 +21,7 @@ This project demonstrates how modern **transformer based vision models** can be 
 ```
 Camera Feed | Segmentation Map | Terrain Perception Dashboard
 ```
+<img width="1428" height="266" alt="0000129" src="https://github.com/user-attachments/assets/9f5be520-dd82-4202-9143-c7ac215aa308" />
 
 Example pipeline:
 
@@ -33,6 +30,7 @@ Input Frame → AI Segmentation → Terrain Interpretation → Rover Dashboard
 ```
 
 The final output simulates a **rover style perception interface** similar to systems used in autonomous exploration vehicles.
+
 
 ---
 
@@ -222,8 +220,8 @@ GPU: NVIDIA RTX 3050
 
 | Metric         | Score |
 | -------------- | ----- |
-| Mean IoU       | 0.37  |
-| Pixel Accuracy | 0.76  |
+| Mean IoU       |<img width="1000" height="500" alt="iou_curve" src="https://github.com/user-attachments/assets/d21644dc-9361-4eac-a7e0-5e0a740fcc15" /> |
+ Pixel Accuracy |<img width="1000" height="500" alt="accuracy_curve" src="https://github.com/user-attachments/assets/3e962c33-98a0-4c48-ae4e-9b7f777798fd" /> |
 
 While the system demonstrates good pixel accuracy, segmentation performance can be further improved with advanced architectures.
 
