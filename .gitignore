@@ -1,3 +1,6 @@
 /.venv
 /Offroad_Segmentation_testImages.zip
 /Offroad_Segmentation_Training_Dataset.zip
+/Offroad_Segmentation_testImages
+/Offroad_Segmentation_Training_Dataset
+/data
